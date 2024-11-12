@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="70dp">
+
+    <ImageView
+        android:id="@+id/listItemWifiLock"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:src="@drawable/lock"
+        android:visibility="gone"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="20dp"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/listItemLevel"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@id/listItemWifiLock"/>
+
+    <TextView
+        android:id="@+id/listItemLevelNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@id/listItemLevel"
+        android:text="1"
+        android:textSize="13sp"
+        android:textColor="@color/colorPrimary"
+        android:clickable="false"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/listItemSSID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@id/listItemLevelNumber"
+        android:textColor="@color/black"
+        android:textSize="13sp"/>
+
+    <TextView
+        android:id="@+id/listItemFreq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="7dp"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@id/listItemSSID"
+        android:textSize="8sp"/>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="#cccccc" />
+
+</RelativeLayout>

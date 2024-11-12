@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- SSID 레이블 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ssid"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <!-- SSID 입력 필드 -->
+    <EditText
+        android:id="@+id/ssidEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ssid"
+        android:paddingStart="16dp"
+        android:inputType="text" />
+
+    <!-- 비밀번호 레이블 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pass"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 비밀번호 입력 필드 -->
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/pass"
+        android:paddingStart="16dp"
+        android:inputType="text" />
+
+    <!-- 설정 레이블 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/initUrl"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 설정 입력 필드 -->
+    <EditText
+        android:id="@+id/initipEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/initUrl"
+        android:paddingStart="16dp"
+        android:inputType="text" />
+
+    <!-- 설정 레이블 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resetUrl"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 설정 입력 필드 -->
+    <EditText
+        android:id="@+id/resetipEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/resetUrl"
+        android:paddingStart="16dp"
+        android:inputType="text" />
+
+    <!-- 설정 레이블 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/serverUrl"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="4dp" />
+
+    <!-- 설정 입력 필드 -->
+    <EditText
+        android:id="@+id/serveripEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/serverUrl"
+        android:paddingStart="16dp"
+        android:inputType="text" />
+
+    <!-- 저장 버튼 -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:text="@string/save"
+        android:backgroundTint="@color/green"
+        android:layout_marginTop="16dp" />
+
+    <!-- 닫기 버튼 -->
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        android:backgroundTint="@color/red"
+        android:text="취소" />
+</LinearLayout>
+

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FarmSonic</string>
+    <string name="intro">FarmSonic System</string>
+    <string name="ssid">SSID(AP)</string>
+    <string name="pass">비밀번호</string>
+    <string name="initUrl">설정페이지(URL)</string>
+    <string name="resetUrl">초기화(URL)</string>
+    <string name="save">저장</string>
+    <string name="resetText">공장초기화</string>
+    <string name="serverUrl">서버(URL)</string>
+    <string name="deviceList">연결 가능한 디바이스 목록</string>
+</resources>
